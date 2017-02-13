@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Invoice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profiles">profiles</string>
+    <string name="title_activity_vpis">vpis</string>
+    <string name="title_activity_sestavljanje">sestavljanje</string>
+    <string name="title_activity_meni">meni</string>
+    <string name="title_activity_naslovnik">naslovnik</string>
+    <string name="title_activity_predracuni">predracuni</string>
+    <string name="title_activity_sestavljanje_list_view">sestavljanjeListView</string>
+
+</resources>

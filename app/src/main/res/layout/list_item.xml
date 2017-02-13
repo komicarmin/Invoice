@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/list_item">
+
+    <TextView
+        android:id="@+id/listEtElement"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.51"
+        android:gravity="center"
+        android:hint="Element"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/listEtKolicina"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.27"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="Kolicina"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.23"
+        android:layout_height="fill_parent"
+        android:hint="Cena"
+        android:id="@+id/listEtCena"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <ImageButton
+        android:id="@+id/btnOdstraniElement"
+        android:layout_height="fill_parent"
+        android:onClick="removeAtomPayOnClickHandler"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/listId"
+        android:visibility="gone" />
+
+</LinearLayout>
